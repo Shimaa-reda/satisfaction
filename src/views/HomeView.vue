@@ -1,5 +1,5 @@
 <script setup>
-import home from '../components/HelloWorld.vue'
+import home from '../components/EmojiFeedback.vue'
 </script>
 
 <template>
