@@ -1,7 +1,7 @@
 <template>
   <div class="emoji-container">
-    <h2 class="fw-bold">ما مدى رضاك عن تجربتك؟</h2>
-    <h3 class="fw-bold">How satisfied are you with your experience?</h3>
+    <h2 class="fw-bold question_Arabic">ما مدى رضاك عن تجربتك؟</h2>
+    <h3 class="fw-bold question">How satisfied are you with <br> your experience?</h3>
     <div class="emojis">
       <span @click="increaseCounter('veryAngryCounter')"><img src="../assets/veryangry.png" alt=""></span>
       <span @click="increaseCounter('angryCounter')"><img src="../assets/angry.png" alt=""></span>
@@ -21,6 +21,15 @@ function increaseCounter(counterKey) {
 </script>
 
 <style>
+@font-face {
+  font-family: "CustomArabicFont";
+  src: url("@/assets/fonts/ExpoArabic-Bold.otf") format("truetype");
+}
+.question_Arabic{
+  font-family: "CustomArabicFont", sans-serif;
+  font-size: 40px;
+  
+}
 .emoji-container {
   text-align: center;
   font-family: sans-serif;
@@ -33,5 +42,10 @@ function increaseCounter(counterKey) {
 img{
   width: 60px;
   height: 60px;
+}
+.question{
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  line-height: 1.5;
 }
 </style>
