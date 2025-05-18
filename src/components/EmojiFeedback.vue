@@ -30,7 +30,6 @@ function increaseCounter(counterKey) {
   font-size: 40px;
   
 }
-
 .emoji-container {
   text-align: center;
   font-family: sans-serif;
@@ -39,7 +38,7 @@ function increaseCounter(counterKey) {
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  min-height: 100vh; /* optional: centers vertically */
+  min-height: 100vh; 
 }
 
 .emojis {
