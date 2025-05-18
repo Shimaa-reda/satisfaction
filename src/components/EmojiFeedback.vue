@@ -30,22 +30,58 @@ function increaseCounter(counterKey) {
   font-size: 40px;
   
 }
+
 .emoji-container {
   text-align: center;
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  min-height: 100vh; /* optional: centers vertically */
 }
+
+.emojis {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
 .emojis span {
   font-size: 3rem;
-  margin: 1rem;
   cursor: pointer;
 }
-img{
+
+img {
   width: 60px;
   height: 60px;
 }
-.question{
+
+.question {
   font-family: "Poppins", sans-serif;
   font-size: 50px;
   line-height: 1.5;
 }
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .question {
+    font-size: 36px;
+  }
+
+  .question_Arabic {
+    font-size: 32px;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 </style>

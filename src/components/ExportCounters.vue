@@ -3,13 +3,14 @@
     <h2>Download Feedback Summary</h2>
     <download-excel
       :data="exportData"
-      name="feedback-report.xls"
+      name="feedback-report.xlsx"
       :fields="fields"
-      type="xls">
+      type="xlsx">
       <button>Download Excel</button>
     </download-excel>
   </div>
 </template>
+
 
 <script setup>
 import JsonExcel from 'vue-json-excel3'
