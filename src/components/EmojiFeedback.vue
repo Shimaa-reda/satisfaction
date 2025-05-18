@@ -82,5 +82,36 @@ img {
     height: 50px;
   }
 }
+@media (max-width: 767px) {
+  .emoji-container {
+    padding: 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical centering */
+    align-items: center;     /* horizontal centering */
+    text-align: center;
+  }
+
+  .question {
+    font-size: 28px;
+  }
+
+  .question_Arabic {
+    font-size: 24px;
+  }
+
+  .emojis {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  img {
+    width: 45px;
+    height: 45px;
+  }
+}
 
 </style>
