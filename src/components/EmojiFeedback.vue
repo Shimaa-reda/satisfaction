@@ -21,7 +21,7 @@ function handleEmojiClick(counterKey) {
 
   
   Swal.fire({
-  html: '<div style="padding-bottom: 20px;">شكرا على تعليقك!<br> Thank you for your feedback!</div>',
+  html: '<div style="padding-bottom: 20px;">   !شكرا على تعليقك     <br> Thank you for your feedback!</div>',
   icon: 'success',
   showConfirmButton: false,
   timer: 2000
